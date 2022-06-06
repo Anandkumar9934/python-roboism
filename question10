@@ -1,0 +1,13 @@
+from tkinter import Y
+
+
+
+
+i=int(input("first number: "))
+j=int(input("second number: "))
+12
+i=i^j
+j=i^j
+i=i^j
+
+print("i is",i, "j is",j)
