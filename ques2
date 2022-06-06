@@ -1,0 +1,5 @@
+def play(n):
+    print("*"*12,n[-4:])
+    
+n=input("enter the credit card number: ")
+play(n)
