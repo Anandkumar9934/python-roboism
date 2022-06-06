@@ -1,0 +1,19 @@
+import auto
+n=[]
+m=int(input("enter the length of array: "))
+for i in range(0,m):
+    n.append(auto.randint(1,99))
+
+print(n)
+count=0
+max=0
+val=0
+for i in range(0,m):
+    for j in range(0,m):
+        if(n[i]==n[j]):
+            count+=1
+    if(count>max):
+        max=count
+        val=n[i]
+    count=0
+print(val,"repeated",max,"times")
