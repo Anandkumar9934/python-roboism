@@ -1,0 +1,8 @@
+def pw(n,m):
+    for i in n:
+        m=m+2*i
+    print(m)
+
+n=input()
+m=''
+pw(n,m)
